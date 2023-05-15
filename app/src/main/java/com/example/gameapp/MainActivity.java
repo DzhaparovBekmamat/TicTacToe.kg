@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void gameOver() {
-        CharSequence text = "НИЧЬЯ,РЕБЯТА!";
+        CharSequence text = "НИЧЬЯ!";
         Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
         game.reset();
         refresh();
